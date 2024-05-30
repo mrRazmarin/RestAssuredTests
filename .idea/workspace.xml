@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6b1038-abef-468f-8831-e3fc3e911c76" name="Changes" comment="написал не рабочий тест на restassured">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/configurations/ConfigurationForCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Core/CoreObject/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Core/CoreObject/underCore/Mission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CoreTests.java" afterDir="false" />
+    <list default="true" id="5c6b1038-abef-468f-8831-e3fc3e911c76" name="Changes" comment="Configuration-class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/Rocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/Diameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/Diameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/Engines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/Engines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/FirstStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/FirstStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/Height.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/Height.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/LandingLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/LandingLegs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/Mass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/Mass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/PayLoadWeights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/PayLoadWeights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/SecondStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/SecondStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underEngines/Isp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underEngines/Isp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underFirstStage/ThrustSeaLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underFirstStage/ThrustSeaLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underFirstStage/ThrustVacuum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underFirstStage/ThrustVacuum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underSecondStage/Payloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underSecondStage/Payloads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underSecondStage/Thrust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underSecondStage/Thrust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/underRocketClasses/underSecondStage/underPayloads/CompositeFairing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectsJSON/Rocket/RocketObject/underRocketClasses/underSecondStage/underPayloads/CompositeFairing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RocketTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configurations/ConfigurationForRocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CoreTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +41,8 @@
   "keyToString": {
     "Gradle.ApiTests.checkCore.executor": "Run",
     "Gradle.ApiTests.getRockets.executor": "Run",
+    "Gradle.CoreTests.executor": "Run",
+    "Gradle.CoreTests.getFirstObjectFromJsonRequestAndCheckMissionName.executor": "Debug",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.RocketTests.getRockets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +68,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RocketTests.getRockets">
+  <component name="RunManager" selected="Gradle.CoreTests">
     <configuration name="ApiTests.checkCore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,6 +117,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="CoreTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.CoreTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoreTests.getFirstObjectFromJsonRequestAndCheckMissionName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.CoreTests.getFirstObjectFromJsonRequestAndCheckMissionName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="RocketTests.getRockets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,6 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CoreTests" />
+        <item itemvalue="Gradle.CoreTests.getFirstObjectFromJsonRequestAndCheckMissionName" />
         <item itemvalue="Gradle.RocketTests.getRockets" />
         <item itemvalue="Gradle.ApiTests.checkCore" />
         <item itemvalue="Gradle.ApiTests.getRockets" />
@@ -188,7 +218,7 @@
       <workItem from="1716728124643" duration="1488000" />
       <workItem from="1716735659634" duration="606000" />
       <workItem from="1716995854367" duration="9527000" />
-      <workItem from="1717078287961" duration="9085000" />
+      <workItem from="1717078287961" duration="11249000" />
     </task>
     <task id="LOCAL-00001" summary="написал не рабочий тест на restassured">
       <option name="closed" value="true" />
@@ -198,7 +228,63 @@
       <option name="project" value="LOCAL" />
       <updated>1717004783692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Описал объект Core для десериализации json">
+      <option name="closed" value="true" />
+      <created>1717096596647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096596647</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил конфигурацию с дефолтным адресом для эндпойнта для тестирования Core">
+      <option name="closed" value="true" />
+      <created>1717096630341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096630341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Зарефакторил конфигурацию для тестов Rocket">
+      <option name="closed" value="true" />
+      <created>1717096676373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096676373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Создал тестовый класс для Core">
+      <option name="closed" value="true" />
+      <created>1717096691464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096691464</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавил JsonProperty-аннотацию, для тех полей, которые не соответствовали имени в json-формате, а также добавил конструкторы">
+      <option name="closed" value="true" />
+      <created>1717096751269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096751269</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Слегка переписал тестовый класс для Rocket">
+      <option name="closed" value="true" />
+      <created>1717096765022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096765022</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Configuration-class">
+      <option name="closed" value="true" />
+      <created>1717096778468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096778468</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +292,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="написал не рабочий тест на restassured" />
-    <option name="LAST_COMMIT_MESSAGE" value="написал не рабочий тест на restassured" />
+    <MESSAGE value="Описал объект Core для десериализации json" />
+    <MESSAGE value="Добавил конфигурацию с дефолтным адресом для эндпойнта для тестирования Core" />
+    <MESSAGE value="Зарефакторил конфигурацию для тестов Rocket" />
+    <MESSAGE value="Создал тестовый класс для Core" />
+    <MESSAGE value="Добавил JsonProperty-аннотацию, для тех полей, которые не соответствовали имени в json-формате, а также добавил конструкторы" />
+    <MESSAGE value="Слегка переписал тестовый класс для Rocket" />
+    <MESSAGE value="Configuration-class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration-class" />
   </component>
 </project>
