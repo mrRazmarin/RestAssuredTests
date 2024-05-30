@@ -1,8 +1,16 @@
-package objectsJSON.Rocket.underRocketClasses.underSecondStage;
+package objectsJSON.Rocket.RocketObject.underRocketClasses.underFirstStage;
 
-public class Thrust {
+public class ThrustVacuum {
     private Long kN;
     private Long lbf;
+
+    public ThrustVacuum() {
+    }
+
+    public ThrustVacuum(Long kN, Long lbf) {
+        this.kN = kN;
+        this.lbf = lbf;
+    }
 
     public Long getkN() {
         return kN;

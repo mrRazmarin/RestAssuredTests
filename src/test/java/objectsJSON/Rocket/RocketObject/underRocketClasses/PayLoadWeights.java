@@ -1,10 +1,20 @@
-package objectsJSON.Rocket.underRocketClasses;
+package objectsJSON.Rocket.RocketObject.underRocketClasses;
 
 public class PayLoadWeights {
-    private Long id;
+    private String id;
     private String name;
     private Long kg;
     private Long lb;
+
+    public PayLoadWeights() {
+    }
+
+    public PayLoadWeights(String id, String name, Long kg, Long lb) {
+        this.id = id;
+        this.name = name;
+        this.kg = kg;
+        this.lb = lb;
+    }
 
     public Long getLb() {
         return lb;
@@ -30,11 +40,11 @@ public class PayLoadWeights {
         this.name = name;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 }

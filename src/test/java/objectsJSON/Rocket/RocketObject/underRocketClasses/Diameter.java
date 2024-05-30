@@ -1,8 +1,16 @@
-package objectsJSON.Rocket.underRocketClasses;
+package objectsJSON.Rocket.RocketObject.underRocketClasses;
 
 public class Diameter {
     private Double meters;
     private Double feet;
+
+    public Diameter() {
+    }
+
+    public Diameter(Double meters, Double feet) {
+        this.meters = meters;
+        this.feet = feet;
+    }
 
     public Double getMeters() {
         return meters;

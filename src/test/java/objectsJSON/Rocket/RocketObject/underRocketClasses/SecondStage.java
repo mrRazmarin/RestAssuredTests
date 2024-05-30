@@ -1,15 +1,30 @@
-package objectsJSON.Rocket.underRocketClasses;
+package objectsJSON.Rocket.RocketObject.underRocketClasses;
 
-import objectsJSON.Rocket.underRocketClasses.underSecondStage.Payloads;
-import objectsJSON.Rocket.underRocketClasses.underSecondStage.Thrust;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import objectsJSON.Rocket.RocketObject.underRocketClasses.underSecondStage.Payloads;
+import objectsJSON.Rocket.RocketObject.underRocketClasses.underSecondStage.Thrust;
 
 public class SecondStage {
     private Boolean reusable;
     private Long engines;
+    @JsonProperty(value = "fuel_amount_tons")
     private Double fuelAmountTons;
+    @JsonProperty(value = "burn_time_sec")
     private Long burnTimeSec;
     private Thrust thrust;
     private Payloads payloads;
+
+    public SecondStage() {
+    }
+
+    public SecondStage(Boolean reusable, Long engines, Double fuelAmountTons, Long burnTimeSec, Thrust thrust, Payloads payloads) {
+        this.reusable = reusable;
+        this.engines = engines;
+        this.fuelAmountTons = fuelAmountTons;
+        this.burnTimeSec = burnTimeSec;
+        this.thrust = thrust;
+        this.payloads = payloads;
+    }
 
     public Payloads getPayloads() {
         return payloads;

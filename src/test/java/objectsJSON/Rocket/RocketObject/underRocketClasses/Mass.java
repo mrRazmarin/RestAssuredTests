@@ -1,8 +1,16 @@
-package objectsJSON.Rocket.underRocketClasses;
+package objectsJSON.Rocket.RocketObject.underRocketClasses;
 
 public class Mass {
     private Long kg;
     private Long lb;
+
+    public Mass() {
+    }
+
+    public Mass(Long kg, Long lb) {
+        this.kg = kg;
+        this.lb = lb;
+    }
 
     public Long getLb() {
         return lb;

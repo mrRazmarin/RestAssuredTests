@@ -1,6 +1,17 @@
-package objectsJSON.Rocket.underRocketClasses.underFirstStage;
+package objectsJSON.Rocket.RocketObject.underRocketClasses.underFirstStage;
 
 public class ThrustSeaLevel {
+    private Long kN;
+    private Long lbf;
+
+    public ThrustSeaLevel() {
+    }
+
+    public ThrustSeaLevel(Long kN, Long lbf) {
+        this.kN = kN;
+        this.lbf = lbf;
+    }
+
     public Long getkN() {
         return kN;
     }
@@ -17,6 +28,4 @@ public class ThrustSeaLevel {
         this.lbf = lbf;
     }
 
-    private Long kN;
-    private Long lbf;
 }
