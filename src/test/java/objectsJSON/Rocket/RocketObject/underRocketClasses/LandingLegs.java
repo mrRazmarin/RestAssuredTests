@@ -27,4 +27,12 @@ public class LandingLegs {
     public void setMaterial(String material) {
         this.material = material;
     }
+
+    @Override
+    public String toString() {
+        return "LandingLegs{" +
+                "number=" + number +
+                ", material='" + material + '\'' +
+                '}';
+    }
 }

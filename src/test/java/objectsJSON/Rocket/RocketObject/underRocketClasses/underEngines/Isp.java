@@ -30,4 +30,12 @@ public class Isp {
     public void setVacuum(Long vacuum) {
         this.vacuum = vacuum;
     }
+
+    @Override
+    public String toString() {
+        return "Isp{" +
+                "seaLevel=" + seaLevel +
+                ", vacuum=" + vacuum +
+                '}';
+    }
 }

@@ -28,4 +28,11 @@ public class ThrustSeaLevel {
         this.lbf = lbf;
     }
 
+    @Override
+    public String toString() {
+        return "ThrustSeaLevel{" +
+                "kN=" + kN +
+                ", lbf=" + lbf +
+                '}';
+    }
 }

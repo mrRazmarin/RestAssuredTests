@@ -27,4 +27,12 @@ public class ThrustVacuum {
     public void setLbf(Long lbf) {
         this.lbf = lbf;
     }
+
+    @Override
+    public String toString() {
+        return "ThrustVacuum{" +
+                "kN=" + kN +
+                ", lbf=" + lbf +
+                '}';
+    }
 }

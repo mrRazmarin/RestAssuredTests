@@ -253,4 +253,33 @@ public class Rocket {
     public void setRocketType(String rocketType) {
         this.rocketType = rocketType;
     }
+
+    @Override
+    public String toString() {
+        return "Rocket{" +
+                "id=" + id +
+                ", active=" + active +
+                ", stages=" + stages +
+                ", boosters=" + boosters +
+                ", costPerLaunch=" + costPerLaunch +
+                ", successRatePct=" + successRatePct +
+                ", firstFlight='" + firstFlight + '\'' +
+                ", country='" + country + '\'' +
+                ", company='" + company + '\'' +
+                ", height=" + height +
+                ", diameter=" + diameter +
+                ", mass=" + mass +
+                ", payLoadWeights=" + payLoadWeights +
+                ", firstStage=" + firstStage +
+                ", secondStage=" + secondStage +
+                ", engines=" + engines +
+                ", landingLegs=" + landingLegs +
+                ", flickImages=" + flickImages +
+                ", wikipedia='" + wikipedia + '\'' +
+                ", description='" + description + '\'' +
+                ", rocketId='" + rocketId + '\'' +
+                ", rocketName='" + rocketName + '\'' +
+                ", rocketType='" + rocketType + '\'' +
+                '}';
+    }
 }

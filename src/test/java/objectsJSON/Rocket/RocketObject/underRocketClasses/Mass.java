@@ -27,4 +27,12 @@ public class Mass {
     public void setKg(Long kg) {
         this.kg = kg;
     }
+
+    @Override
+    public String toString() {
+        return "Mass{" +
+                "kg=" + kg +
+                ", lb=" + lb +
+                '}';
+    }
 }

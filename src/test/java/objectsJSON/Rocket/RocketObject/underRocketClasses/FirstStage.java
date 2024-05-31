@@ -86,4 +86,17 @@ public class FirstStage {
     public void setThrustVacuum(ThrustVacuum thrustVacuum) {
         this.thrustVacuum = thrustVacuum;
     }
+
+    @Override
+    public String toString() {
+        return "FirstStage{" +
+                "reusable=" + reusable +
+                ", engines=" + engines +
+                ", fuelAmountTons=" + fuelAmountTons +
+                ", burnTimeSec=" + burnTimeSec +
+                ", thrustSeaLevel=" + thrustSeaLevel +
+                ", thrustVacuum=" + thrustVacuum +
+                ", cores=" + cores +
+                '}';
+    }
 }

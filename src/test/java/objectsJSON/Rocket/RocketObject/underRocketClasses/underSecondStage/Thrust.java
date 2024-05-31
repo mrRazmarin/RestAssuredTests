@@ -27,4 +27,12 @@ public class Thrust {
     public void setLbf(Long lbf) {
         this.lbf = lbf;
     }
+
+    @Override
+    public String toString() {
+        return "Thrust{" +
+                "kN=" + kN +
+                ", lbf=" + lbf +
+                '}';
+    }
 }

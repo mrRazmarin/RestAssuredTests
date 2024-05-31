@@ -47,4 +47,14 @@ public class PayLoadWeights {
     public void setId(String id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "PayLoadWeights{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", kg=" + kg +
+                ", lb=" + lb +
+                '}';
+    }
 }

@@ -30,4 +30,12 @@ public class CompositeFairing {
     public void setDiameter(Diameter diameter) {
         this.diameter = diameter;
     }
+
+    @Override
+    public String toString() {
+        return "CompositeFairing{" +
+                "height=" + height +
+                ", diameter=" + diameter +
+                '}';
+    }
 }

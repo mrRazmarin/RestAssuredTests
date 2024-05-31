@@ -43,4 +43,13 @@ public class Payloads {
     public void setOptionTwo(String optionTwo) {
         this.optionTwo = optionTwo;
     }
+
+    @Override
+    public String toString() {
+        return "Payloads{" +
+                "optionOne='" + optionOne + '\'' +
+                ", optionTwo='" + optionTwo + '\'' +
+                ", compositeFairing=" + compositeFairing +
+                '}';
+    }
 }

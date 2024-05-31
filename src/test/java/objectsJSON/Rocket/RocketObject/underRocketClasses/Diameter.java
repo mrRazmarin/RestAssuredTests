@@ -27,4 +27,12 @@ public class Diameter {
     public void setFeet(Double feet) {
         this.feet = feet;
     }
+
+    @Override
+    public String toString() {
+        return "Diameter{" +
+                "meters=" + meters +
+                ", feet=" + feet +
+                '}';
+    }
 }

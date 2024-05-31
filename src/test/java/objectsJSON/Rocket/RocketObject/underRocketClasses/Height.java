@@ -27,4 +27,12 @@ public class Height {
     public void setFeet(Double feet) {
         this.feet = feet;
     }
+
+    @Override
+    public String toString() {
+        return "Height{" +
+                "meters=" + meters +
+                ", feet=" + feet +
+                '}';
+    }
 }

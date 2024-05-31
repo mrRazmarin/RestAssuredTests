@@ -73,4 +73,16 @@ public class SecondStage {
     public void setReusable(Boolean reusable) {
         this.reusable = reusable;
     }
+
+    @Override
+    public String toString() {
+        return "SecondStage{" +
+                "reusable=" + reusable +
+                ", engines=" + engines +
+                ", fuelAmountTons=" + fuelAmountTons +
+                ", burnTimeSec=" + burnTimeSec +
+                ", thrust=" + thrust +
+                ", payloads=" + payloads +
+                '}';
+    }
 }

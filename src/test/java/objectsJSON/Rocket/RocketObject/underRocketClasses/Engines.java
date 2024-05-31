@@ -128,4 +128,21 @@ public class Engines {
     public void setThrustToWeight(Double thrustToWeight) {
         this.thrustToWeight = thrustToWeight;
     }
+
+    @Override
+    public String toString() {
+        return "Engines{" +
+                "number=" + number +
+                ", type='" + type + '\'' +
+                ", version='" + version + '\'' +
+                ", layout='" + layout + '\'' +
+                ", isp=" + isp +
+                ", engineLossMax=" + engineLossMax +
+                ", propellantOne='" + propellantOne + '\'' +
+                ", propellantTwo='" + propellantTwo + '\'' +
+                ", thrustSeaLevel=" + thrustSeaLevel +
+                ", thrustVacuum=" + thrustVacuum +
+                ", thrustToWeight=" + thrustToWeight +
+                '}';
+    }
 }
