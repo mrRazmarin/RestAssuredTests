@@ -5,7 +5,6 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import objectsJSON.Core.CoreObject.Core;
 import objectsJSON.Core.CoreObject.underCore.Mission;
-import objectsJSON.Rocket.RocketObject.Rocket;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -13,7 +12,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.ResourceBundle;
 
 import static io.restassured.RestAssured.given;
 
